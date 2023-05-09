@@ -2,7 +2,6 @@
 > ##### 理論請自行找，網路上有很多相關的文章，這邊只關注於範例實作的部分.
 
 ---
-<br>
 
 <!--ts-->
 ## 目錄
@@ -15,26 +14,22 @@
 <!--te-->
 
 ---
-<br>
 
 ## 目的
 在不破壞封裝的情況下捕獲並存儲對象的內部狀態，以便在以後需要時可以恢復該狀態。
 
 ---
-<br>
 
 ## 使用時機
 當需要記錄對象的內部狀態，並且需要在以後的某個時間點恢復狀態時使用。
 
 ---
-<br>
 
 ## URL結構圖
 ![](https://drive.google.com/uc?id=1APx0dRF6f_GuM0OnkziM2TZ1-QQ6jGaR)
 > 圖片來源：[Refactoring.Guru - Memento](https://refactoring.guru/design-patterns/memento)
 
 ---
-<br>
 
 ## 實作成員
 * Originator
@@ -48,22 +43,18 @@
   * 可以使用Memento恢復Originator的狀態。
 
 ---
-<br>
 
 ## 實作範例:
 - [待補...]() 
 
 ---
-<br>
 
 ## 參考資料
 * [Wiki - Memento Pattern](https://en.wikipedia.org/wiki/Memento_pattern) <br>
 * [Refactoring.Guru - Memento](https://refactoring.guru/design-patterns/memento) <br>
 
 ---
-<br>
 
----
 <!--ts-->
 #### [目錄 ↩](#目錄)
 <!--te-->
